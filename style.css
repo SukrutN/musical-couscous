@@ -1,47 +1,81 @@
+
 .front-page {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
 }
 
 .main-content {
     flex: 1;
 }
 
+body {
+    margin: 0;
+}
+
 .header {
     display: flex;
     justify-content: space-around;
+    background-color: #1F2937;
+    color: whitesmoke;
+    padding: 10px;
 }
 
 .logo {
     display: flex;
     align-items: center;
+    font-weight: bold;
+    font-size: larger;
 }
 
 ul {
     list-style-type: none;
     display: flex;
     gap: 12px;
+    font-size: smaller;
 }
 
 .desc {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    gap: 60px;
+    background-color: #1F2937;
+    color: white;
+    padding: 40px;
 }
 
 .container {
     display: flex;
     justify-content: center;
     gap: 20px;
+    padding: 30px;
+}
+
+.container img {
+    border: 5px solid blue;
+    border-radius: 25px;
 }
 
 .collection {
     max-width: 200px;
+    height: auto;
+    color: gray;
+    text-align: center;
+    
+}
+
+.infopics {
+    padding: 40px;
 }
 
 .random-info {
     text-align: center;
+    padding: 10px;
+    font-size: 28px;
+    font-weight:900;
+    color: #1F2937;
 }
 
 .quote {
@@ -49,20 +83,64 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: lightgray;
+    padding: 50px;
 }
 
 .empty {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 30px;
+    color: white;
+}
+
+.exbold {
+    font-size: 36px;
+    font-weight:bolder;
+    inline-size: 350px;
+    margin-top: 0;
+    margin-bottom: 20px; 
+}
+
+.descsub {
+    font-size: medium;
+    color: lightgray;
 }
 
 .contact {
     display: flex;
+    background-color: royalblue;
+    padding: 30px 50px;
+    gap: 70px;
 }
 
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #1F2937;
+    color: whitesmoke;
+    padding: 25px;
+}
+
+button {
+    background: royalblue;
+    border: 1px solid whitesmoke;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.desc button {
+    border: none;
+}
+
+.speaker {
+    padding-left: 80%;
+}
+
+.words {
+    font-size: 24px;
+    font-style: italic;
 }
